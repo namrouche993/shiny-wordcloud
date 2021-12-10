@@ -1,6 +1,7 @@
 library(tm)
 library(wordcloud)
 library(memoise)
+library(dplyr)
 
 # The list of valid books
 books <<- list("le roi du kda w kda" = "summer",
