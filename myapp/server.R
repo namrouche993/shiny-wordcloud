@@ -1,5 +1,5 @@
 # le texte des livres téléchargé sous dessous:
-# A Mid Summer Night's Dream:
+# le reve dune nuit dete
 #  http://www.gutenberg.org/cache/epub/2242/pg2242.txt
 # le Merchant de Venice:
 #  http://www.gutenberg.org/cache/epub/2243/pg2243.txt
