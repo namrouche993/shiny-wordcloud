@@ -1,9 +1,9 @@
-# Text of the books downloaded from:
+# le texte des livres téléchargé sous dessous:
 # A Mid Summer Night's Dream:
 #  http://www.gutenberg.org/cache/epub/2242/pg2242.txt
-# The Merchant of Venice:
+# le Merchant de Venice:
 #  http://www.gutenberg.org/cache/epub/2243/pg2243.txt
-# Romeo and Juliet:
+# Romeo et Juliet:
 #  http://www.gutenberg.org/cache/epub/1112/pg1112.txt
 
 function(input, output, session) {
@@ -14,7 +14,7 @@ function(input, output, session) {
     # ...but not for anything else
     isolate({
       withProgress({
-        setProgress(message = "Processing corpus...")
+        setProgress(message = "Corpus en processe...")
         getTermMatrix(input$selection)
       })
     })
