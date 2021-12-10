@@ -5,7 +5,7 @@ fluidPage(
   sidebarLayout(
     # Sidebar with a slider and selection inputs
     sidebarPanel(
-      selectInput("selection", "Choose a book:",
+      selectInput("selection", "Choisir un livre:",
                   choices = books),
       actionButton("update", "Change"),
       hr(),
@@ -13,7 +13,7 @@ fluidPage(
                   "Minimum Frequency:",
                   min = 1,  max = 50, value = 15),
       sliderInput("max",
-                  "Maximum Number of Words:",
+                  "Maximum Number des mots:",
                   min = 1,  max = 300,  value = 100)
     ),
     
