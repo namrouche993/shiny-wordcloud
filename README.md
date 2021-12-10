@@ -14,7 +14,7 @@ The image is available from [Docker Hub](https://registry.hub.docker.com/u/flavi
 
 ## Usage:
 
-To run this Shiny App on your computer:
+pour demarer lapplication shiny sur votre ordinateur:
 
 ```sh
 docker run --rm -p 80:80 flaviobarros/shiny-wordcloud
